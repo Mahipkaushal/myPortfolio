@@ -1,27 +1,12 @@
-@mixin transition($interval) {
-	-webkit-transition: all $interval ease-in-out;
-	-moz-transition: all $interval ease-in-out;
-	-ms-transition: all $interval ease-in-out;
-	-o-transition: all $interval ease-in-out;
-	transition: all $interval ease-in-out;
-}
-
-// Fonts
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic);
-
-// Variables
-@import "variables";
-
-// Bootstrap
-@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
-
+/* ======= Base ======= */
 body {
-  font-family: $font-family-sans-serif;
-  background: $body-bg;
+  font-family: 'Roboto', sans-serif;
+  color: #666;
+  background: #f5f5f5;
   font-size: 14px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: $text-color;
+  color: #444;
   overflow-x: hidden;
 }
 h1,
@@ -34,7 +19,10 @@ h6 {
 }
 a {
   color: #009688;
-  @include transition(0.4s);
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
 }
 a:hover {
   text-decoration: underline;
@@ -101,6 +89,7 @@ p {
 }
 .form-group textarea.form-control {
   min-height: 100px;
+  resize: none;
 }
 .form-control:focus {
   -webkit-box-shadow: none;
@@ -115,6 +104,10 @@ p {
   position: absolute;
   font-size: 12px;
   color: #de0000;
+}
+.form-group span.success {
+  font-size: 16px;
+  color: rgb(0, 150, 136);
 }
 .btn,
 a.btn {
@@ -859,18 +852,6 @@ a.btn.clicked span {
   }
   .contact-section .intro {
     padding: 0;
-  }
-  .contact-section .intro .profile-image {
-    position: static;
-    margin: 0 auto;
-    margin-bottom: 30px;
-    text-align: center;
-  }
-  .contact-section .service-list {
-    margin-left: 0;
-  }
-  .contact-section .social {
-    margin: 0 auto;
   }
 }
 /* Small devices (tablets, 768px and up) */
