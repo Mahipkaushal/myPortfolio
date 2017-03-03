@@ -6,17 +6,17 @@
 
 	<div class="wrapper container">
 
-		@include('partials.experiences')
+		@include('sections.experiences')
 		
-		@include('partials.education')
+		@include('sections.education')
 
-		@include('partials.skills')
+		@include('sections.skills')
 
-		@include('partials.testimonials')
+		@include('sections.testimonials')
 
-		@include('partials.portfolio')
+		@include('sections.portfolio')
 
-		@include('partials.contact')
+		@include('sections.contact')
 
 	</div>
 
