@@ -6,22 +6,22 @@
                 {{ csrf_field() }}
                 <fieldset class="form-group">
                     <label for="name">Name</label>
-                    <input type="text" id="name" name="name" class="form-control required" data-field-name="Name" data-field-type="text" value="aaa" autocomplete="off" >
+                    <input type="text" id="name" name="name" class="form-control required" data-field-name="Name" data-field-type="text" autocomplete="off" >
                     <span class="error"></span>
                 </fieldset>
                 <fieldset class="form-group">
                     <label for="email">Email</label>
-                    <input type="email" id="email" name="email" class="form-control required" data-field-name="Email" data-field-type="email" value="a@aaa.ccc" autocomplete="off" >
+                    <input type="email" id="email" name="email" class="form-control required" data-field-name="Email" data-field-type="email" autocomplete="off" >
                     <span class="error"></span>
                 </fieldset>
                 <fieldset class="form-group">
                     <label for="subject">Subject</label>
-                    <input type="text" id="subject" name="subject" class="form-control required" data-field-name="Subject" data-field-type="text" value="aaa" autocomplete="off" >
+                    <input type="text" id="subject" name="subject" class="form-control required" data-field-name="Subject" data-field-type="text" autocomplete="off" >
                     <span class="error"></span>
                 </fieldset>
                 <fieldset class="form-group">
                     <label for="message">Message</label>
-                    <textarea id="message" name="message" class="form-control required" data-field-name="Message" data-field-type="text" autocomplete="off" >aaa</textarea>
+                    <textarea id="message" name="message" class="form-control required" data-field-name="Message" data-field-type="text" autocomplete="off" ></textarea>
                     <span class="error"></span>
                 </fieldset>
                 <fieldset class="form-group btn-holder" style="min-height: 70px;">
