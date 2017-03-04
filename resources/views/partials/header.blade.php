@@ -1,15 +1,15 @@
 <header class="header">
     <div class="top-bar container-fluid">
         <div class="actions">
-            <a class="btn hidden-xs" href="mailto:someone@example.com"><i class="fa fa-paper-plane" aria-hidden="true"></i> Hire Me</a>
-            <a class="btn" href="#"><i class="fa fa-download" aria-hidden="true"></i> Download My Resume</a>
+            <a class="btn hidden-xs" href="mailto:mahip@mahipkaushal.com"><i class="fa fa-paper-plane" aria-hidden="true"></i> Hire Me</a>
+            <a class="btn" href="files/Resume.pdf" target="_blank"><i class="fa fa-download" aria-hidden="true"></i> Download My Resume</a>
         </div>
         <ul class="social list-inline">
             <li><a href="https://www.linkedin.com/in/mahip-kaushal-4719a177/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-            <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-            <li><a href="#"><i class="fa fa-github-alt" aria-hidden="true"></i></a></li>
-            <li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.facebook.com/mahip.kaushal" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <li><a href="https://plus.google.com/u/0/108650564457115200964" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+            <li><a href="https://github.com/Mahipkaushal" target="_blank"><i class="fa fa-github-alt" aria-hidden="true"></i></a></li>
+            <li><a href="skype:mahip2905?chat"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
         </ul>
     </div>
     
