@@ -83,6 +83,46 @@
                     <div class="desc"></div>
                 </div>
             </div>
+            <div class="item col-xs-12 col-sm-3">
+                <div class="item-inner">
+                    <div class="chart-easy-pie text-center">
+                        <div class="chart-theme-1 chart" data-percent="50"><span>50</span>%</div>
+                    </div>
+                    <h4 class="skill-name">NodeJs</h4>
+                    <div class="level">Intermediate, 1 years</div>
+                    <div class="desc"></div>
+                </div>
+            </div>
+            <div class="item col-xs-12 col-sm-3">
+                <div class="item-inner">
+                    <div class="chart-easy-pie text-center">
+                        <div class="chart-theme-1 chart" data-percent="75"><span>75</span>%</div>
+                    </div>
+                    <h4 class="skill-name">VueJs</h4>
+                    <div class="level">Advanced, 3 years</div>
+                    <div class="desc"></div>
+                </div>
+            </div>
+            <div class="item col-xs-12 col-sm-3">
+                <div class="item-inner">
+                    <div class="chart-easy-pie text-center">
+                        <div class="chart-theme-1 chart" data-percent="50"><span>50</span>%</div>
+                    </div>
+                    <h4 class="skill-name">ReactJs</h4>
+                    <div class="level">Intermediate, 1 years</div>
+                    <div class="desc"></div>
+                </div>
+            </div>
+            <div class="item col-xs-12 col-sm-3">
+                <div class="item-inner">
+                    <div class="chart-easy-pie text-center">
+                        <div class="chart-theme-1 chart" data-percent="50"><span>50</span>%</div>
+                    </div>
+                    <h4 class="skill-name">Shopify</h4>
+                    <div class="level">Intermediate, 1 years</div>
+                    <div class="desc"></div>
+                </div>
+            </div>
         </div>
     </div>
     
@@ -103,15 +143,15 @@
             <span class="skill-tag">C++</span>
             <span class="skill-tag">Java</span>
             <span class="skill-tag">SQLite 3</span>                        
-            <span class="skill-tag">Oracle 9i/10g</span>
-            <span class="skill-tag">Node.js</span>                        
+            <span class="skill-tag">Oracle 9i/10g</span>                   
             <span class="skill-tag">MongoDB</span>
-            <span class="skill-tag">ReactJS</span>
             <span class="skill-tag">AngularJS</span>
-            <span class="skill-tag">ExpressJS</span>
             <span class="skill-tag">Semantic-ui</span>                        
             <span class="skill-tag">Material-ui</span>
             <span class="skill-tag">SASS</span>
+            <span class="skill-tag">NodeJs</span>
+            <span class="skill-tag">ReactJs</span>
+            <span class="skill-tag">VueJs</span>
         </div>
     </div>
     
