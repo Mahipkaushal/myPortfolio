@@ -3,8 +3,52 @@
     <div class="timeline">
         <div class="item">
             <div class="work-place">
+                <h3 class="place"><a href="http://www.steelmint.com" target="_blank">Nickelfox Technology Pvt. Ltd.</a></h3>
+                <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>Noida, U.P., India</div>
+            </div>
+            <div class="job-meta">
+                <div class="title">Full Stack Developer</div>
+                <div class="time">Jul, 2018 - Present</div>
+            </div>
+            <div class="job-desc">
+                <p>Nickelfox is the one-stop destination for your mobile app. We strategize, design and develop your app to build it just like you imagined it... actually, even better. Our designs are stunning and stand out with the best modern apps on the App Store. We work on the latest and greatest in technology to keep you ahead of the curve. We build user-friendly, fast and scalable apps for startups, small business, enterprise, and nonprofits.</p>
+                <p>As a Web Developer my role and responsibilies are as follows</p>
+                <ul>
+                    <li>Software development, prototyping and code reviews</li>
+                    <li>Develop web based e-commerce applications</li>
+                    <li>Design and develop database structure</li>
+                    <li>Setup Continuos Integration/Deployment (CI/CD)</li>
+                    <li>Assist software team in handling ongoing tasks as required</li>
+                </ul>
+            </div>
+        </div>
+        <div class="item">
+            <div class="work-place">
+                <h3 class="place"><a href="http://www.steelmint.com" target="_blank">Steelmint Info Services</a></h3>
+                <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>Raipur, Chhattisgarh, India</div>
+            </div>
+            <div class="job-meta">
+                <div class="title">Web Developer</div>
+                <div class="time">Jun, 2017 - Jun, 2018</div>
+            </div>
+            <div class="job-desc">
+                <p>SteelMint is one-of-its-kind Steel research, analysis and consultancy company based in India.
+                    SteelMint cover more than 30 steel products under raw material (Iron ore, Pellets, Coal, Scrap, Manganese Ore), semi-finished (Sponge Iron, Ferroy Alloys, Ingot, Billet, Pig Iron, Scrap) and finished Steel products (various long and flat items).
+                    SteelMint provide you with real-time trade prices, steel news, market views, expert comments and archived information. SteelMint also give you a feed back on the demand-supply situation at various locations across the country.</p>
+                <p>As a Web Developer my role and responsibilies were as follows</p>
+                <ul>
+                    <li>Software development, prototyping and code reviews</li>
+                    <li>Develop web based e-commerce applications</li>
+                    <li>Design and develop database structure</li>
+                    <li>Testing, deployment, and maintenance of websites and applications</li>
+                    <li>Create RESTFUL apis for native mobile applications</li>
+                </ul>
+            </div>
+        </div>
+        <div class="item">
+            <div class="work-place">
                 <h3 class="place">Tailmill</h3>
-                <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>Noida, India</div>
+                <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>Noida, U.P., India</div>
             </div>
             <div class="job-meta">
                 <div class="title">Lead Software Engineer</div>
@@ -32,7 +76,7 @@
         <div class="item">
             <div class="work-place">
                 <h3 class="place">Tailmill</h3>
-                <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>Noida, India</div>
+                <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>Noida, U.P., India</div>
             </div>
             <div class="job-meta">
                 <div class="title">Full Stack Developer</div>
