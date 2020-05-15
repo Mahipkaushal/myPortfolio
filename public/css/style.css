@@ -1,6 +1,6 @@
 /* ======= Base ======= */
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', helvetica, sans-serif;
   color: #666;
   background: #f5f5f5;
   font-size: 14px;
@@ -30,6 +30,19 @@ a:hover {
 }
 a:focus {
   text-decoration: none;
+}
+a.logo {
+  font-family: 'Zilla Slab', helvetica, sans-serif !important;
+  font-size: 24px !important;
+  font-weight: 500 !important;
+  text-decoration: none !important;
+  line-height: 1;
+  color: rgba(255, 255, 255, 0.8) !important;
+  display: block;
+  width: 90px;
+}
+a.logo:hover {
+  color: rgba(255, 255, 255, 1) !important;
 }
 input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
   background-color: none;
@@ -194,12 +207,25 @@ a.btn.clicked span {
   color: #fff;
 }
 .header .top-bar {
-  position: relative;
+  position: sticky;
+  top: 0px;
   padding-top: 15px;
-  padding-bottom: 20px;
+  padding-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background: #009688;
+  z-index: 10;
 }
+.header .logo-container,
 .header .social {
   margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.header .social {
+  margin-left: auto ; 
 }
 .header .social a {
   color: rgba(255, 255, 255, 0.8);
@@ -221,9 +247,7 @@ a.btn.clicked span {
   border-color: #fff;
 }
 .header .actions {
-  position: absolute;
-  right: 15px;
-  top: 10px;
+  margin-left: auto;
 }
 .header .actions .fa {
   margin-right: 5px;
@@ -280,6 +304,7 @@ a.btn.clicked span {
 }
 .header .contact-info li a {
   color: rgba(255, 255, 255, 0.8);
+  text-decoration: none !important;
 }
 .header .contact-info li a:hover {
   color: #fff;
@@ -770,8 +795,10 @@ a.btn.clicked span {
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
   .header .social {
-    margin: 0 auto;
     text-align: center;
+  }
+  .header .social li {
+    padding: 0;
   }
   .header .actions {
     position: static;

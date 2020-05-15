@@ -12,8 +12,6 @@
 
 		@include('sections.skills')
 
-		@include('sections.testimonials')
-
 		@include('sections.portfolio')
 
 		@include('sections.contact')

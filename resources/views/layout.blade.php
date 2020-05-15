@@ -4,15 +4,19 @@
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
 
     <head>
-        <title>Mahip Kaushal Resume/CV/Portfolio</title>
-        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+        <title>&lt;Mahip Kaushal /&gt; Full Stack Developer</title>
+        <link rel="icon" type="image/png" href="/favicon.png">
+
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Mahip Kaushal Resume/CV/Portfolio">
+        <meta name="description" content="I am Full Stack Developer. I am having around 6+ years of experience in full stack web development from backend to frontend and in between.">
         <meta name="author" content="Mahip Kaushal">    
-        <!-- <link rel="shortcut icon" href="favicon.ico"> -->  
-        <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+        
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500&display=swap" rel="stylesheet">
         
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/font-awesome.min.css"> 
