@@ -29,6 +29,7 @@
             <ul class="list-inline">
                 <li><a href="mailto:mahipkaushal2905@gmail.com"><i class="fa fa-paper-plane"></i> mahipkaushal2905@gmail.com</a></li>
                 <li><a href="tel: +917042202385"><i class="fa fa-phone"></i> +91 704 220 2385</a></li>
+                <li><a href="files/Mahip-Kaushal-Full-Stack-Developer-Resume.pdf" target="_blank"><i class="fa fa-download" aria-hidden="true"></i> Resume</a></li>
             </ul>
         </div>
     </div>
@@ -36,6 +37,7 @@
     <div class="page-nav-space-holder hidden-xs">
         <div id="page-nav-wrapper" class="page-nav-wrapper text-center">
             <div class="container-fluid">
+                <a class="logo" href="/"><span>&lt;MK /&gt;</pre></span></a>
                 <ul id="page-nav" class="nav page-nav list-inline">
                     <li><a class="scrollto" href="#experiences-section">Experiences</a></li>
                     <li><a class="scrollto" href="#education-section">Education</a></li>
