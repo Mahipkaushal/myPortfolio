@@ -58,5 +58,5 @@
             </div>
         </div>
     </div>
-
+    <h3 class="more--text">More Coming Soon...</h3>
 </section>

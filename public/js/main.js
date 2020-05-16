@@ -1,4 +1,4 @@
-var $url = "http://127.0.0.1:8000/contact";
+var $url = $('meta[name="base_url"]').attr('content');
 var validateForm = function($form) {
     $valid = true;
     $fields = $form.find('.required');
@@ -100,7 +100,6 @@ $(document).ready(function() {
     
     $('.filters').each(function(i, typeGroup) {        
         var $typeGroup = $(typeGroup);
-        console.log($typeGroup);
         $typeGroup.on('click', '.type', function() {
             $typeGroup.find('.active').removeClass('active');
             $(this).addClass('active');
@@ -163,7 +162,6 @@ $(document).ready(function() {
                     $.each($errors.errors, function($key, $value) {
                         $error = $form.find('#'+$key).closest('.form-group').find('span.error');
                         $error.html($value);
-                        console.log($value);
                     });
 
                     setTimeout(function() {                            

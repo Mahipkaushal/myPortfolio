@@ -223,9 +223,10 @@ a.btn.clicked span {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  margin-left: 0px !important;
 }
 .header .social {
-  margin-left: auto ; 
+  margin-left: auto !important; 
 }
 .header .social a {
   color: rgba(255, 255, 255, 0.8);
@@ -313,11 +314,11 @@ a.btn.clicked span {
   margin-right: 0;
 }
 .header .contact-info li .fa {
-  margin-right: 10px;
+  margin-right: 2px;
 }
 /* Page Nav */
 .page-nav-space-holder {
-  height: 60px;
+  height: 54px;
   position: relative;
 }
 .page-nav-wrapper {
@@ -326,10 +327,14 @@ a.btn.clicked span {
   padding-bottom: 20px;
   position: absolute;
   width: 100%;
+  height: 54px;
   left: 0;
   -webkit-box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .page-nav-wrapper.fixed {
   position: fixed;
@@ -366,6 +371,16 @@ a.btn.clicked span {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   font-weight: 500;
+}
+.page-nav-wrapper a.logo {
+  display: none;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.page-nav-wrapper.fixed a.logo {
+  display: block;
 }
 .page-nav-wrapper .page-nav {
   margin: 0 auto;
@@ -740,9 +755,17 @@ a.btn.clicked span {
   left: 0;
   top: 0;
 }
+.portfolio-section .more--text {
+  text-align: center;
+  font-size: 16px;
+  font-style: italic;
+  color: rgba(0, 0, 0, 0.5);
+  text-shadow: 0 2px #EEE;
+  margin-bottom: 0;
+}
 .contact-section .intro {
   position: relative;
-  padding: 30px;
+  padding: 30px 30px 0px 30px;
   font-size: 16px;
   color: #666;
 }
@@ -791,6 +814,25 @@ a.btn.clicked span {
 }
 .footer .container a {
   color: #8a8a8a;
+}
+@media (max-width: 991px) {
+  .timeline {
+    margin-left: 0;
+    padding-right: 0;
+  }
+  .timeline .work-place {
+    margin-bottom: 10px;
+  }
+  .timeline .place {
+    margin-bottom: 3px;
+  }
+  .timeline .location {
+    position: relative;
+  }
+  .timeline .job-meta {
+    position: static;
+    margin-bottom: 15px;
+  }
 }
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
@@ -841,8 +883,14 @@ a.btn.clicked span {
     margin-left: 0;
     padding-right: 0;
   }
+  .timeline .work-place {
+    margin-bottom: 10px;
+  }
   .timeline .place {
-    margin-bottom: 5px;
+    margin-bottom: 3px;
+  }
+  .timeline .location {
+    position: relative;
   }
   .timeline .job-meta {
     position: static;
