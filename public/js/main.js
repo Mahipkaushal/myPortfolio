@@ -133,7 +133,7 @@ $(document).ready(function() {
         if(validateForm($form) === true && $button.hasClass('clicked') === false) {            
             $formData = $('#form input[type="text"], #form input[type="email"], #form input[type="number"], #form input[type="hidden"], #form input[type="checkbox"]:checked, #form input[type="radio"]:checked, #form select, #form textarea');
             $.ajax({
-                url: $url,
+                url: $url + '/contact',
                 type: 'POST',
                 data: $formData,
                 dataType: 'json',
